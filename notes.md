@@ -1,0 +1,4 @@
+- review MVC architecture
+- any interfaces/abstract classes
+- explain <> or <T> 
+- memorise a bunch of status codes

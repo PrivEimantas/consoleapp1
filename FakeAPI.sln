@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeAPI", "FakeAPI\FakeAPI.csproj", "{2A07FA59-2B40-48E1-956C-EB13C197C601}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FakeAPI.Core", "FakeAPI.Core", "{350DA21F-BFDD-4BA5-B865-CCC661162208}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeAPI.Core", "FakeAPI.Core\FakeAPI.Core.csproj", "{A30BE65D-2828-4C94-8822-201B0D27FBED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeAPI.Tests.Functional", "FakeAPI.Tests.Functional\FakeAPI.Tests.Functional.csproj", "{CC210B23-D00A-45D2-93DF-D3621E9EC249}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,13 @@ Global
 		{2A07FA59-2B40-48E1-956C-EB13C197C601}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A07FA59-2B40-48E1-956C-EB13C197C601}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A07FA59-2B40-48E1-956C-EB13C197C601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A30BE65D-2828-4C94-8822-201B0D27FBED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A30BE65D-2828-4C94-8822-201B0D27FBED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A30BE65D-2828-4C94-8822-201B0D27FBED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A30BE65D-2828-4C94-8822-201B0D27FBED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC210B23-D00A-45D2-93DF-D3621E9EC249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC210B23-D00A-45D2-93DF-D3621E9EC249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC210B23-D00A-45D2-93DF-D3621E9EC249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC210B23-D00A-45D2-93DF-D3621E9EC249}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
